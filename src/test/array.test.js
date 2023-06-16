@@ -7,6 +7,7 @@ const shoppingList = [
 ];
   
 test('the shopping list has milk on it', () => {
+  
   expect(shoppingList).toContain('milk');
-  expect(shoppingList).toContain('skldcmmkferkl');
+  expect(shoppingList).toContain('kleenex');
 });
